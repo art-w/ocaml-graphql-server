@@ -19,6 +19,7 @@ depends: [
   "alcotest" {with-test}
   "async_unix" {with-test & >= "v0.9.0"}
   "yojson" {with-test & >= "1.6.0"}
+  "ppx_sexp_conv" {>= "v0.16.0"}
 ]
 
 synopsis: "Build GraphQL schemas with Async support"
